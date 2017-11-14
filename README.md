@@ -4,7 +4,7 @@ A project for learning React.
 ## Project Progress ##
 See how this code progressed throughout my course:
 
-[Ravenous I - Day 7](https://github.com/bgrapes/ravenous/tree/ravenous-1)
+[Ravenous I - Create Static Components - Day 7](https://github.com/bgrapes/ravenous/tree/ravenous-1)
 * I've built three components: `Business`, `BusinessList`, and `SearchBar`.
 * The `App` component renders a `SearchBar` component and a `BusinessList` component.
 * This is just a simulation of what the finished project will look like.
