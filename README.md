@@ -14,3 +14,8 @@ See how this code progressed throughout my course:
 [Ravenous II - Pass Information - Day 10](https://github.com/bgrapes/ravenous/tree/ravenous-2)
 * I moved business information to the container component (`App`).
 * Business information is now passed from the parent component (`App`) to the child components (`Business` and `BusinessList`).
+
+[Ravenous III - Set State of Components - Day 14](https://github.com/bgrapes/ravenous/tree/ravenous-3)
+* I added visual feedback to the sorting options.
+* Set the state of the sorting options and inputs.
+* Simulated a search query by logging the criteria the console.
