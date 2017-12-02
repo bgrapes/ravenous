@@ -19,3 +19,6 @@ See how this code progressed throughout my course:
 * I added visual feedback to the sorting options.
 * Set the state of the sorting options and inputs.
 * Simulated a search query by logging the criteria the console.
+
+[Ravenous IV - Add Interaction with Yelp API - Day 20](https://github.com/bgrapes/ravenous/tree/ravenous-4)
+* I replaced hard coded values with real data from the Yelp API.
