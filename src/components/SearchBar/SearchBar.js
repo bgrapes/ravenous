@@ -24,9 +24,9 @@ class SearchBar extends React.Component {
 
   getSortByClass(sortByOption) {
     if (this.state.sortBy === sortByOption) {
-      return 'active';
+      return 'active'
     } else {
-      return '';
+      return ''
     }
   }
 
@@ -51,7 +51,7 @@ class SearchBar extends React.Component {
   }
 
   handleSearch(event) {
-    this.searchYelp(this.state.term, this.state.location, this.state.sortBy);
+    this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
     event.preventDefault(); // Prevent the default action of clicking a link from triggering at the end of the method.
   }
 
@@ -60,10 +60,6 @@ class SearchBar extends React.Component {
       let sortByOptionValue = sortByOptions[sortByOption];
       return <li key={sortByOptionValue} className={this.getSortByClass(sortByOptionValue)} onClick={this.handleSortByChange.bind(this, sortByOptionValue)}>{sortByOption}</li>;
     })
-  }
-
-  searchYelp(term, location, sortBy) {
-    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
   }
 
   render() {
@@ -79,7 +75,7 @@ class SearchBar extends React.Component {
           <input placeholder="Where?" onChange={this.handleLocationChange} />
         </div>
         <div className="SearchBar-submit">
-          <a onClick={this.handleSearch}>Let's Go</a>
+          <a onClick={this.handleSearch}>Lets Go</a>
         </div>
       </div>
     )
