@@ -1,7 +1,9 @@
 # Ravenous #
 A project for learning React.
 
-[View a deployment on Surge](https://ravenous-bg.surge.sh/).
+[View Demo](https://ravenous-bg.surge.sh/)
+
+![Ravenous project by Brian Grapes](project_screenshot.jpg)
 
 ## Project Progress ##
 See how this code progressed throughout my course:
